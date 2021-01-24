@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Banner, Navbar, Map, Search } from './Components';
+import { Banner, Navbar, Container, Search } from './Components';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
     <Navbar />
     <Banner />
     <Search />
-    <Map id="map" />
+    <Container id="control" />
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

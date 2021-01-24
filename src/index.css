@@ -13,7 +13,17 @@ code {
     monospace;
 }
 
-#map{
+#control{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* #map{
   width: 50%;
   height: 50%;
+} */
+
+#test{
+  /* display: flex; */
+  /* justify-content: center; */
 }

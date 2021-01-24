@@ -62,7 +62,7 @@ export class MapContainer extends Component {
       >
 
         <Marker onClick={this.onMarkerClick}
-                name={'Current location'} />
+                name={'UCLA'} />
 
         <InfoWindow
           marker={this.state.activeMarker}
@@ -79,5 +79,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'secret'
+  apiKey: 'SECRET'
 })(MapContainer);

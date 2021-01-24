@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Queercare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You will need to get your own api key for to use for the Maps component.
 
 ## Available Scripts
 
