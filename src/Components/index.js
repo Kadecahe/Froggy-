@@ -5,6 +5,9 @@ export {default as About} from './About'
 export {default as Connect} from './Connect'
 export {default as Advocacy} from './Advocacy'
 export {default as Banner} from './Banner'
+export {default as Map} from './Map'
+export {default as Search} from './Search'
+
 
 
 

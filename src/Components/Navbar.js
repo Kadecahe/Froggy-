@@ -7,7 +7,11 @@ const Navbar = () => {
     <BootstrapNavbar bg="light" variant="light">
       <BootstrapNavbar.Brand
          href="/"
-         className="ml-3">Queerbeing</BootstrapNavbar.Brand>
+         className="ml-3">
+           <img src="brand.jpg" alt="queercare"
+              style={{width: "50%"}}
+           />
+           </BootstrapNavbar.Brand>
       <Nav className="mr-auto">
       <About />
       <Connect />
