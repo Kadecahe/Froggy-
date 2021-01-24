@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { Banner, Navbar, Map } from './Components';
+import { Banner, Navbar, Map, Search } from './Components';
 
 function App() {
   return (
     <div className="App">
     <Navbar />
     <Banner />
+    <Search />
     <Map id="map" />
 
       {/* <header className="App-header">

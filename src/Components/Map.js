@@ -3,7 +3,7 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 import axios from 'axios'
 const mapStyles = {
   width: '50%',
-  height: '50%'
+  height: '100%'
 };
 
 //click out and click in for marker
@@ -79,5 +79,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'it\'s a secret'
+  apiKey: 'secret'
 })(MapContainer);

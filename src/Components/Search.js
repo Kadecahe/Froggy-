@@ -1,22 +1,28 @@
 import React from 'react'
-import {Form} from 'react-bootstrap'
+import {Form, Button} from 'react-bootstrap'
 
 const Search = () => {
 
   return (
-    <div>
+    <div className=" m-3">
       <div>
-        <h1>
+        <h3>
           Enter your city for local Resources of LGBT+ support groups, physicians, and resources
+        </h3>
+      </div>
 
-        </h1>
-      </div>
-      <div>
-        <Form>
-          <Form.Group>
-          </Form.Group>
-        </Form>
-      </div>
+      <Form className="d-flex justify-content-center">
+        <div style={{width: "50%"}} className="d-flex justify-content-center">
+
+
+        <Form.Control placeholder="City" />
+        <Form.Control placeholder="Zipcode" />
+        </div>
+        <div className="m-2" variant="outline-primary">
+        <Button>Search</Button>
+        </div>
+
+      </Form>
     </div>
 
 
