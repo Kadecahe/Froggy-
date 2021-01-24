@@ -45,7 +45,7 @@ export class MapContainer extends Component {
 
   render() {
     return (
-      <div className="d-flex flex-column">
+      <div >
 
       <Map
         google={this.props.google}
@@ -72,15 +72,12 @@ export class MapContainer extends Component {
             </div>
         </InfoWindow>
       </Map>
-      <div className="d-flex mt-5">
-      <img src="Character-Sittingwheelchair.svg" />
 
-      </div>
       </div>
     );
   }
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyCcyx9KrWkrRAAql98u-WYN1loLsY5wi8Q'
+  // apiKey: 'SECRETS'
 })(MapContainer);

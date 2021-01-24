@@ -4,12 +4,12 @@ import {About, Connect, Advocacy} from './index'
 
 const Navbar = () => {
   return (
-    <BootstrapNavbar bg="light" variant="light">
+    <BootstrapNavbar bg="white" variant="white">
       <BootstrapNavbar.Brand
          href="/"
          className="ml-3">
            <img src="brand.jpg" alt="queercare"
-              style={{width: "50%"}}
+              style={{width: "30%"}}
            />
            </BootstrapNavbar.Brand>
       <Nav className="mr-auto">
