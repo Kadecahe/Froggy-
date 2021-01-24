@@ -7,7 +7,7 @@ const Search = () => {
     <div className=" m-3">
       <div>
         <h3>
-          Enter your city for local Resources of LGBT+ support groups, physicians, and resources
+          Enter your city for local resources of LGBT+ support groups, physicians, and resources
         </h3>
       </div>
 
