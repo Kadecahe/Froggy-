@@ -4,7 +4,7 @@ import {About, Connect, Advocacy} from './index'
 
 const Navbar = () => {
   return (
-    <BootstrapNavbar bg="white" variant="white">
+    <BootstrapNavbar bg="white" variant="light" className="d-flex justify-content-between">
       <BootstrapNavbar.Brand
          href="/"
          className="ml-3">
@@ -12,6 +12,7 @@ const Navbar = () => {
               style={{width: "30%"}}
            />
            </BootstrapNavbar.Brand>
+      <div className="d-flex m-4">
       <Nav className="mr-auto">
       <About />
       <Connect />
@@ -23,6 +24,7 @@ const Navbar = () => {
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-primary">Search</Button>
     </Form>
+    </div>
   </BootstrapNavbar>
   )
 }
